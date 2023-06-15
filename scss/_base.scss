@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: var(--main-heading-stats);
+}
+
+body {
+	@include flex(column);
+	background: var(--main-background);
+	padding: 1.875rem;
+	min-height: 100svh;
+	font-family: 'Inter', sans-serif;
+}
